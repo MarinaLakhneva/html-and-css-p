@@ -713,4 +713,154 @@ body {
   text-decoration: none;
 }
 
+.footer_top {
+  background: var(--eee, #eee);
+  padding: 30px 35px 30px 15px;
+}
+
+.footer_top .info:not(:first-child) {
+  margin-top: 20px;
+}
+
+@media (width >= 768px) {
+  .footer_top {
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 75px 30px 35px;
+    display: flex;
+  }
+
+  .footer_top .info:not(:first-child) {
+    margin-top: 0;
+  }
+}
+
+@media (width >= 1280px) {
+  .footer_top {
+    padding: 45px 265px 45px 175px;
+  }
+}
+
+.info {
+  justify-content: space-between;
+  display: flex;
+}
+
+@media (width >= 768px) {
+  .info img {
+    margin-right: 10px;
+  }
+}
+
+@media (width >= 1280px) {
+  .info img {
+    margin-right: 30px;
+  }
+}
+
+.info-description {
+  width: 100%;
+  max-width: 210px;
+  font-size: 14px;
+}
+
+@media (width >= 768px) {
+  .info-description {
+    max-width: 160px;
+  }
+}
+
+.footer_bottom {
+  background-color: var(--color-dark);
+  padding: 30px 17px 22px 15px;
+}
+
+@media (width >= 1280px) {
+  .footer_bottom {
+    padding: 40px 175px 35px;
+  }
+}
+
+.social {
+  justify-content: space-between;
+  width: 100%;
+  max-width: 190px;
+  display: flex;
+}
+
+.app {
+  justify-content: space-between;
+  margin-top: 30px;
+  display: flex;
+}
+
+@media (width >= 768px) {
+  .app {
+    margin-top: 0;
+  }
+
+  .app img:not(:first-child) {
+    margin-left: 8px;
+  }
+}
+
+.background_info {
+  color: #999;
+  width: 100%;
+  max-width: 250px;
+  margin-top: 15px;
+  font-size: 14px;
+  display: flex;
+}
+
+@media (width >= 768px) {
+  .background_info {
+    max-width: 580px;
+  }
+}
+
+@media (width >= 1280px) {
+  .background_info {
+    max-width: 730px;
+  }
+}
+
+p {
+  margin: 0;
+  font-family: Arial, Helvetica CY, Nimbus Sans L, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+hr {
+  margin-top: 30px;
+}
+
+@media (width >= 768px) {
+  .block_a {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+}
+
+.logo__image {
+  display: none;
+}
+
+@media (width >= 1280px) {
+  .logo__image {
+    display: flex;
+  }
+
+  .logo__image .path_1 {
+    fill: #ccc;
+  }
+
+  .logo__image .path_2 {
+    fill: #212122;
+  }
+}
+
 /*# sourceMappingURL=components.d2908973.css.map */
